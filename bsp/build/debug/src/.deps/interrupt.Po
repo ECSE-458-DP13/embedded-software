@@ -1,0 +1,169 @@
+src/interrupt.o: \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/src/interrupt.c \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/interrupt.h \
+ /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/lib/gcc/riscv64-unknown-elf/8.3.0/include/stddef.h \
+ metal/machine.h metal/machine/platform.h \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/drivers/fixed-clock.h \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/clock.h \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/compiler.h \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/memory.h \
+ /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/lib/gcc/riscv64-unknown-elf/8.3.0/include/stdint.h \
+ /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/stdint.h \
+ /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/machine/_default_types.h \
+ /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/sys/features.h \
+ /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/_newlib_version.h \
+ /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/sys/_intsup.h \
+ /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/sys/_stdint.h \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/drivers/riscv_clint0.h \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/drivers/riscv_cpu.h \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/cpu.h \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/drivers/riscv_plic0.h \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/pmp.h \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/drivers/sifive_gpio0.h \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/gpio.h \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/drivers/sifive_gpio-leds.h \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/led.h \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/drivers/sifive_i2c0.h \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/i2c.h \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/drivers/sifive_pwm0.h \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/pwm.h \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/drivers/sifive_rtc0.h \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/io.h \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/rtc.h \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/drivers/sifive_spi0.h \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/spi.h \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/drivers/sifive_uart0.h \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/uart.h \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/drivers/sifive_wdog0.h \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/watchdog.h \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/drivers/sifive_fe310-g000_hfrosc.h \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/drivers/sifive_fe310-g000_prci.h \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/drivers/sifive_fe310-g000_hfxosc.h \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/drivers/sifive_fe310-g000_lfrosc.h \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/drivers/sifive_fe310-g000_pll.h \
+ /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/string.h \
+ /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/_ansi.h \
+ /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/newlib-nano/newlib.h \
+ /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/sys/config.h \
+ /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/machine/ieeefp.h \
+ /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/sys/reent.h \
+ /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/_ansi.h \
+ /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/sys/_types.h \
+ /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/machine/_types.h \
+ /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/sys/lock.h \
+ /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/sys/cdefs.h \
+ /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/sys/_locale.h \
+ /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/strings.h \
+ /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/sys/string.h
+
+/home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/interrupt.h:
+
+/home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/lib/gcc/riscv64-unknown-elf/8.3.0/include/stddef.h:
+
+metal/machine.h:
+
+metal/machine/platform.h:
+
+/home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/drivers/fixed-clock.h:
+
+/home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/clock.h:
+
+/home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/compiler.h:
+
+/home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/memory.h:
+
+/home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/lib/gcc/riscv64-unknown-elf/8.3.0/include/stdint.h:
+
+/home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/stdint.h:
+
+/home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/machine/_default_types.h:
+
+/home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/sys/features.h:
+
+/home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/_newlib_version.h:
+
+/home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/sys/_intsup.h:
+
+/home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/sys/_stdint.h:
+
+/home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/drivers/riscv_clint0.h:
+
+/home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/drivers/riscv_cpu.h:
+
+/home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/cpu.h:
+
+/home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/drivers/riscv_plic0.h:
+
+/home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/pmp.h:
+
+/home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/drivers/sifive_gpio0.h:
+
+/home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/gpio.h:
+
+/home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/drivers/sifive_gpio-leds.h:
+
+/home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/led.h:
+
+/home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/drivers/sifive_i2c0.h:
+
+/home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/i2c.h:
+
+/home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/drivers/sifive_pwm0.h:
+
+/home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/pwm.h:
+
+/home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/drivers/sifive_rtc0.h:
+
+/home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/io.h:
+
+/home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/rtc.h:
+
+/home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/drivers/sifive_spi0.h:
+
+/home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/spi.h:
+
+/home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/drivers/sifive_uart0.h:
+
+/home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/uart.h:
+
+/home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/drivers/sifive_wdog0.h:
+
+/home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/watchdog.h:
+
+/home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/drivers/sifive_fe310-g000_hfrosc.h:
+
+/home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/drivers/sifive_fe310-g000_prci.h:
+
+/home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/drivers/sifive_fe310-g000_hfxosc.h:
+
+/home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/drivers/sifive_fe310-g000_lfrosc.h:
+
+/home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/drivers/sifive_fe310-g000_pll.h:
+
+/home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/string.h:
+
+/home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/_ansi.h:
+
+/home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/newlib-nano/newlib.h:
+
+/home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/sys/config.h:
+
+/home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/machine/ieeefp.h:
+
+/home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/sys/reent.h:
+
+/home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/_ansi.h:
+
+/home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/sys/_types.h:
+
+/home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/machine/_types.h:
+
+/home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/sys/lock.h:
+
+/home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/sys/cdefs.h:
+
+/home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/sys/_locale.h:
+
+/home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/strings.h:
+
+/home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/riscv64-unknown-elf/include/sys/string.h:

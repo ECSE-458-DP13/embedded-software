@@ -1,0 +1,5 @@
+src/drivers/fixed-factor-clock.o: \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/src/drivers/fixed-factor-clock.c \
+ metal/machine/platform.h
+
+metal/machine/platform.h:

@@ -1,0 +1,5 @@
+src/init.o: \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/src/init.c \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/init.h
+
+/home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/init.h:

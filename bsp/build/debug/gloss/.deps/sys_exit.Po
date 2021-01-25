@@ -1,0 +1,5 @@
+gloss/sys_exit.o: \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/gloss/sys_exit.c \
+ /home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/shutdown.h
+
+/home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal/metal/shutdown.h:

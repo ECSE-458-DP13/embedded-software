@@ -1,0 +1,5 @@
+bsp.dir=/home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp
+eclipse.preferences.version=1
+metal-source-path=/home/letsgrillbananas/wsFreedomStudio/embedded-software/freedom-metal
+parent.ip.project=/home/letsgrillbananas/FreedomStudio/SiFive/freedom-e-sdk-master
+venv.path=/home/letsgrillbananas/wsFreedomStudio/embedded-software/venv
