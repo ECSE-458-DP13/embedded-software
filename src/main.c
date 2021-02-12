@@ -11,7 +11,8 @@
 
 // TODO: this is copied over from the example; figure out what address to use
 /* PmodAD2, PmodTmp2 sensor modules are connected to I2C0 bus */
-#define TEMP_SENSOR_I2C_ADDR 0x4B
+#define IMU_I2C_ADDR 0x6A
+#define MAGNETO_I2C_ADDR 0x1C
 #define TEMP_SENSOR_ID 0xCB
 #define ADC_I2C_ADDR 0x28
 #define I2C_BAUDRATE 100000
@@ -50,8 +51,8 @@ int main() {
 	// TODO: this is copied from the example; find how it would work for our sensor
 	/* Attempt to read ADT7420 Chip ID */
 	buf[0] = 0x0B;
-	metal_i2c_write(i2c, TEMP_SENSOR_I2C_ADDR, LEN1, buf, METAL_I2C_STOP_DISABLE);
-	metal_i2c_read(i2c, TEMP_SENSOR_I2C_ADDR, LEN1, buf, METAL_I2C_STOP_ENABLE);
+	metal_i2c_write(i2c, IMU_I2C_ADDR, LEN1, buf, METAL_I2C_STOP_DISABLE);
+	metal_i2c_read(i2c, IMU_I2C_ADDR, LEN1, buf, METAL_I2C_STOP_ENABLE);
 
 	/* Verify Chip ID */
 	if (buf[0] == TEMP_SENSOR_ID) {
