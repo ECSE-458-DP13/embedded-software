@@ -13,7 +13,7 @@
 /* PmodAD2, PmodTmp2 sensor modules are connected to I2C0 bus */
 #define IMU_I2C_ADDR 0x6A
 #define MAGNETO_I2C_ADDR 0x1C
-#define TEMP_SENSOR_ID 0xCB
+#define IMU_SENSOR_ID 0x69
 #define ADC_I2C_ADDR 0x28
 #define I2C_BAUDRATE 100000
 
@@ -49,26 +49,17 @@ int main() {
 	metal_i2c_init(i2c, I2C_BAUDRATE, METAL_I2C_MASTER);
 
 	// TODO: this is copied from the example; find how it would work for our sensor
-	/* Attempt to read ADT7420 Chip ID */
+	/* Attempt to read LSM6DS33 (IMU) chip id */
 	buf[0] = 0x0B;
 	metal_i2c_write(i2c, IMU_I2C_ADDR, LEN1, buf, METAL_I2C_STOP_DISABLE);
 	metal_i2c_read(i2c, IMU_I2C_ADDR, LEN1, buf, METAL_I2C_STOP_ENABLE);
 
 	/* Verify Chip ID */
-	if (buf[0] == TEMP_SENSOR_ID) {
-		printf("PmodTmp2 module detected \n");
+	if (buf[0] == IMU_SENSOR_ID) {
+		printf("Accelero/Gyro module detected \n");
 	} else {
-		printf("Failed to detect PmodTmp2 module \n");
+		printf("Failed to detect Accelero/Gyro module \n");
 		return RET_NOK;
-	}
-
-	/* Attempt to access AD7991, configure to convert on Vin0. */
-	buf[0] = 0x10;
-	if (metal_i2c_write(i2c, ADC_I2C_ADDR, LEN1, buf, METAL_I2C_STOP_ENABLE) != RET_OK) {
-		printf("Failed to detect PmodAD2 module \n");
-		return RET_NOK;
-	} else {
-		printf("PmodAD2 module detected \n");
 	}
 
 	return 0;
