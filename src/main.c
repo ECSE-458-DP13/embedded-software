@@ -9,11 +9,24 @@
 #include <stdio.h>
 #include <time.h>
 
-// TODO: this is copied over from the example; figure out what address to use
-/* PmodAD2, PmodTmp2 sensor modules are connected to I2C0 bus */
+// addresses and subaddresses for IMU
+// IMU = accelero + gyro
+// each sensor value is 2 bytes
+// want yaw for gyro, x-y for accelero
 #define IMU_I2C_ADDR 0x6A
-#define MAGNETO_I2C_ADDR 0x1C
 #define IMU_SENSOR_ID 0x69
+#define IMU_WHO_AM_I_SUBADDR 0x0F
+#define IMU_OUTZ_L_G_SUBADDR 0x26
+#define IMU_OUTZ_H_G_SUBADDR 0x27
+#define IMU_OUTX_L_XL_SUBADDR 0x28
+#define IMU_OUTX_H_XL_SUBADDR 0x29
+#define IMU_OUTY_L_XL_SUBADDR 0x2A
+#define IMU_OUTY_H_XL_SUBADDR 0x2B
+
+// addresses and subaddresses for magneto
+#define MAGNETO_I2C_ADDR 0x1C
+// TODO: subaddresses
+
 #define ADC_I2C_ADDR 0x28
 #define I2C_BAUDRATE 100000
 
@@ -32,7 +45,7 @@
 
 int main() {
 	unsigned int temp, volt;
-	unsigned char buf[LEN2];
+	unsigned char buf[LEN1];
 	time_t timeout;
 	struct metal_i2c *i2c;
 
@@ -50,17 +63,26 @@ int main() {
 
 	// TODO: this is copied from the example; find how it would work for our sensor
 	/* Attempt to read LSM6DS33 (IMU) chip id */
-	buf[0] = 0x0B;
-	metal_i2c_write(i2c, IMU_I2C_ADDR, LEN1, buf, METAL_I2C_STOP_DISABLE);
-	metal_i2c_read(i2c, IMU_I2C_ADDR, LEN1, buf, METAL_I2C_STOP_ENABLE);
+	buf[0] = IMU_WHO_AM_I_SUBADDR;
 
-	/* Verify Chip ID */
-	if (buf[0] == IMU_SENSOR_ID) {
-		printf("Accelero/Gyro module detected \n");
-	} else {
-		printf("Failed to detect Accelero/Gyro module \n");
-		return RET_NOK;
+	while(1) {
+		if (!metal_i2c_write(i2c, IMU_I2C_ADDR, LEN1, buf, METAL_I2C_STOP_DISABLE)) {
+			if (!metal_i2c_read(i2c, IMU_I2C_ADDR, LEN1, buf, METAL_I2C_STOP_ENABLE)) {
+				printf("Data read = %x\n", buf[0]);
+			}
+		}
+		//metal_i2c_write(i2c, IMU_I2C_ADDR, LEN1, buf, METAL_I2C_STOP_DISABLE);
+		//metal_i2c_read(i2c, IMU_I2C_ADDR, LEN1, buf, METAL_I2C_STOP_ENABLE);
+
+		/* Verify Chip ID */
+		if (buf[0] == IMU_SENSOR_ID) {
+			printf("Accelero/Gyro module detected \n");
+		} else {
+			printf("Failed to detect Accelero/Gyro module \n");
+			//return RET_NOK;
+		}
 	}
+
 
 	return 0;
 }
