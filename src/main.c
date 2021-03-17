@@ -66,11 +66,10 @@ int main() {
 	buf[0] = IMU_WHO_AM_I_SUBADDR;
 
 	while(1) {
-		if (!metal_i2c_write(i2c, IMU_I2C_ADDR, LEN1, buf, METAL_I2C_STOP_DISABLE)) {
-			if (!metal_i2c_read(i2c, IMU_I2C_ADDR, LEN1, buf, METAL_I2C_STOP_ENABLE)) {
-				printf("Data read = %x\n", buf[0]);
-			}
-		}
+		buf[0] = IMU_WHO_AM_I_SUBADDR;
+		metal_i2c_write(i2c, IMU_I2C_ADDR, LEN1, buf, METAL_I2C_STOP_DISABLE);
+		metal_i2c_read(i2c, IMU_I2C_ADDR, LEN1, buf, METAL_I2C_STOP_ENABLE);
+		printf("Data read = %x\n", buf[0]);
 		//metal_i2c_write(i2c, IMU_I2C_ADDR, LEN1, buf, METAL_I2C_STOP_DISABLE);
 		//metal_i2c_read(i2c, IMU_I2C_ADDR, LEN1, buf, METAL_I2C_STOP_ENABLE);
 

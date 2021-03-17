@@ -1,9 +1,9 @@
 Archive member included to satisfy reference by file (symbol)
 
 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-printf.o)
-                              /tmp/cc7Zw6BQ.o (printf)
+                              /tmp/ccFaSpt4.o (printf)
 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-puts.o)
-                              /tmp/cc7Zw6BQ.o (puts)
+                              /tmp/ccFaSpt4.o (puts)
 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-wbuf.o)
                               /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-puts.o) (__swbuf_r)
 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-wsetup.o)
@@ -61,7 +61,7 @@ Archive member included to satisfy reference by file (symbol)
 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-msizer.o)
                               /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-reallocr.o) (_malloc_usable_size_r)
 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(inline.o)
-                              /tmp/cc7Zw6BQ.o (__metal_dt_mem_dtim_80000000)
+                              /tmp/ccFaSpt4.o (__metal_dt_mem_dtim_80000000)
 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
                               /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(inline.o) (__metal_driver_vtable_riscv_clint0)
 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
@@ -107,7 +107,7 @@ Archive member included to satisfy reference by file (symbol)
 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(gpio.o)
                               /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(sifive_gpio-leds.o) (metal_gpio_disable_input)
 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(i2c.o)
-                              /tmp/cc7Zw6BQ.o (metal_i2c_init)
+                              /tmp/ccFaSpt4.o (metal_i2c_init)
 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(shutdown.o)
                               /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o) (metal_shutdown)
 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(spi.o)
@@ -177,31 +177,31 @@ __metal_dt_pmp      0x20              /home/letsgrillbananas/wsFreedomStudio/emb
 
 Discarded input sections
 
- .text          0x0000000000000000        0x0 /tmp/cc7Zw6BQ.o
- .data          0x0000000000000000        0x0 /tmp/cc7Zw6BQ.o
- .bss           0x0000000000000000        0x0 /tmp/cc7Zw6BQ.o
+ .text          0x0000000000000000        0x0 /tmp/ccFaSpt4.o
+ .data          0x0000000000000000        0x0 /tmp/ccFaSpt4.o
+ .bss           0x0000000000000000        0x0 /tmp/ccFaSpt4.o
  .data.__metal_memory_table
-                0x0000000000000000        0xc /tmp/cc7Zw6BQ.o
+                0x0000000000000000        0xc /tmp/ccFaSpt4.o
  .sdata.__metal_gpio_table
-                0x0000000000000000        0x4 /tmp/cc7Zw6BQ.o
+                0x0000000000000000        0x4 /tmp/ccFaSpt4.o
  .sbss.__metal_button_table
-                0x0000000000000000        0x4 /tmp/cc7Zw6BQ.o
+                0x0000000000000000        0x4 /tmp/ccFaSpt4.o
  .data.__metal_led_table
-                0x0000000000000000        0xc /tmp/cc7Zw6BQ.o
+                0x0000000000000000        0xc /tmp/ccFaSpt4.o
  .sbss.__metal_switch_table
-                0x0000000000000000        0x4 /tmp/cc7Zw6BQ.o
+                0x0000000000000000        0x4 /tmp/ccFaSpt4.o
  .data.__metal_pwm_table
-                0x0000000000000000        0xc /tmp/cc7Zw6BQ.o
+                0x0000000000000000        0xc /tmp/ccFaSpt4.o
  .sdata.__metal_rtc_table
-                0x0000000000000000        0x4 /tmp/cc7Zw6BQ.o
+                0x0000000000000000        0x4 /tmp/ccFaSpt4.o
  .data.__metal_spi_table
-                0x0000000000000000        0xc /tmp/cc7Zw6BQ.o
+                0x0000000000000000        0xc /tmp/ccFaSpt4.o
  .sdata.__metal_uart_table
-                0x0000000000000000        0x8 /tmp/cc7Zw6BQ.o
+                0x0000000000000000        0x8 /tmp/ccFaSpt4.o
  .sbss.__metal_simuart_table
-                0x0000000000000000        0x4 /tmp/cc7Zw6BQ.o
+                0x0000000000000000        0x4 /tmp/ccFaSpt4.o
  .sdata.__metal_wdog_table
-                0x0000000000000000        0x4 /tmp/cc7Zw6BQ.o
+                0x0000000000000000        0x4 /tmp/ccFaSpt4.o
  .text          0x0000000000000000        0x0 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-printf.o)
  .data          0x0000000000000000        0x0 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-printf.o)
  .bss           0x0000000000000000        0x0 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-printf.o)
@@ -1639,7 +1639,7 @@ rom              0x0000000020010000 0x000000000006a120 xrl !aw
 
 Linker script and memory map
 
-LOAD /tmp/cc7Zw6BQ.o
+LOAD /tmp/ccFaSpt4.o
 START GROUP
 LOAD /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a
 LOAD /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32/libgcc.a
@@ -1745,7 +1745,7 @@ END GROUP
 .rodata         0x0000000020010370      0xdb0
  *(.rdata)
  *(.rodata .rodata.*)
- .rodata        0x0000000020010370       0x9b /tmp/cc7Zw6BQ.o
+ .rodata        0x0000000020010370       0x9b /tmp/ccFaSpt4.o
  *fill*         0x000000002001040b        0x1 
  .rodata.__sf_fake_stderr
                 0x000000002001040c       0x20 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
@@ -1826,221 +1826,221 @@ END GROUP
  *(.text.unlikely .text.unlikely.*)
  *(.text.startup .text.startup.*)
  *(.text .text.*)
- .text.main     0x0000000020011180       0xd2 /tmp/cc7Zw6BQ.o
+ .text.main     0x0000000020011180       0xd0 /tmp/ccFaSpt4.o
                 0x0000000020011180                main
- .text.printf   0x0000000020011252       0x44 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-printf.o)
-                0x0000000020011252                printf
-                0x0000000020011252                iprintf
- .text._puts_r  0x0000000020011296       0xda /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-puts.o)
-                0x0000000020011296                _puts_r
- .text.puts     0x0000000020011370        0xe /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-puts.o)
-                0x0000000020011370                puts
+ .text.printf   0x0000000020011250       0x44 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-printf.o)
+                0x0000000020011250                printf
+                0x0000000020011250                iprintf
+ .text._puts_r  0x0000000020011294       0xda /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-puts.o)
+                0x0000000020011294                _puts_r
+ .text.puts     0x000000002001136e        0xe /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-puts.o)
+                0x000000002001136e                puts
  .text.__swbuf_r
-                0x000000002001137e       0xc0 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-wbuf.o)
-                0x000000002001137e                __swbuf_r
+                0x000000002001137c       0xc0 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-wbuf.o)
+                0x000000002001137c                __swbuf_r
  .text.__swsetup_r
-                0x000000002001143e      0x110 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-wsetup.o)
-                0x000000002001143e                __swsetup_r
+                0x000000002001143c      0x110 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-wsetup.o)
+                0x000000002001143c                __swsetup_r
  .text.__sflush_r
-                0x000000002001154e      0x14a /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fflush.o)
-                0x000000002001154e                __sflush_r
+                0x000000002001154c      0x14a /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fflush.o)
+                0x000000002001154c                __sflush_r
  .text._fflush_r
-                0x0000000020011698       0x64 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fflush.o)
-                0x0000000020011698                _fflush_r
- .text.std      0x00000000200116fc       0x68 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+                0x0000000020011696       0x64 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fflush.o)
+                0x0000000020011696                _fflush_r
+ .text.std      0x00000000200116fa       0x68 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
  .text._cleanup_r
-                0x0000000020011764        0xa /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
-                0x0000000020011764                _cleanup_r
+                0x0000000020011762        0xa /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+                0x0000000020011762                _cleanup_r
  .text.__sfmoreglue
-                0x000000002001176e       0x44 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
-                0x000000002001176e                __sfmoreglue
- .text.__sinit  0x00000000200117b2       0x66 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
-                0x00000000200117b2                __sinit
- .text.__sfp    0x0000000020011818       0x9a /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
-                0x0000000020011818                __sfp
+                0x000000002001176c       0x44 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+                0x000000002001176c                __sfmoreglue
+ .text.__sinit  0x00000000200117b0       0x66 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+                0x00000000200117b0                __sinit
+ .text.__sfp    0x0000000020011816       0x9a /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+                0x0000000020011816                __sfp
  .text._fwalk_reent
-                0x00000000200118b2       0x6c /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fwalk.o)
-                0x00000000200118b2                _fwalk_reent
+                0x00000000200118b0       0x6c /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fwalk.o)
+                0x00000000200118b0                _fwalk_reent
  .text.__swhatbuf_r
-                0x000000002001191e       0x58 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-makebuf.o)
-                0x000000002001191e                __swhatbuf_r
+                0x000000002001191c       0x58 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-makebuf.o)
+                0x000000002001191c                __swhatbuf_r
  .text.__smakebuf_r
-                0x0000000020011976       0x9c /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-makebuf.o)
-                0x0000000020011976                __smakebuf_r
- .text          0x0000000020011a12       0x10 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memset.o)
-                0x0000000020011a12                memset
- .text._free_r  0x0000000020011a22       0xac /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-freer.o)
-                0x0000000020011a22                _free_r
+                0x0000000020011974       0x9c /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-makebuf.o)
+                0x0000000020011974                __smakebuf_r
+ .text          0x0000000020011a10       0x10 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memset.o)
+                0x0000000020011a10                memset
+ .text._free_r  0x0000000020011a20       0xac /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-freer.o)
+                0x0000000020011a20                _free_r
  .text._malloc_r
-                0x0000000020011ace       0xde /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-mallocr.o)
-                0x0000000020011ace                _malloc_r
+                0x0000000020011acc       0xde /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-mallocr.o)
+                0x0000000020011acc                _malloc_r
  .text.__sfputc_r
-                0x0000000020011bac       0x2a /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x0000000020011baa       0x2a /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf.o)
  .text.__sfputs_r
-                0x0000000020011bd6       0x42 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf.o)
-                0x0000000020011bd6                __sfputs_r
+                0x0000000020011bd4       0x42 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x0000000020011bd4                __sfputs_r
  .text._vfprintf_r
-                0x0000000020011c18      0x298 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf.o)
-                0x0000000020011c18                _vfiprintf_r
-                0x0000000020011c18                _vfprintf_r
- .text._sbrk_r  0x0000000020011eb0       0x2a /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-sbrkr.o)
-                0x0000000020011eb0                _sbrk_r
- .text.__sread  0x0000000020011eda       0x30 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-stdio.o)
-                0x0000000020011eda                __sread
+                0x0000000020011c16      0x298 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x0000000020011c16                _vfiprintf_r
+                0x0000000020011c16                _vfprintf_r
+ .text._sbrk_r  0x0000000020011eae       0x2a /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-sbrkr.o)
+                0x0000000020011eae                _sbrk_r
+ .text.__sread  0x0000000020011ed8       0x30 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-stdio.o)
+                0x0000000020011ed8                __sread
  .text.__swrite
-                0x0000000020011f0a       0x4e /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-stdio.o)
-                0x0000000020011f0a                __swrite
- .text.__sseek  0x0000000020011f58       0x36 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-stdio.o)
-                0x0000000020011f58                __sseek
+                0x0000000020011f08       0x4e /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-stdio.o)
+                0x0000000020011f08                __swrite
+ .text.__sseek  0x0000000020011f56       0x36 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-stdio.o)
+                0x0000000020011f56                __sseek
  .text.__sclose
-                0x0000000020011f8e        0x6 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-stdio.o)
-                0x0000000020011f8e                __sclose
+                0x0000000020011f8c        0x6 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-stdio.o)
+                0x0000000020011f8c                __sclose
  .text._write_r
-                0x0000000020011f94       0x2e /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-writer.o)
-                0x0000000020011f94                _write_r
+                0x0000000020011f92       0x2e /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-writer.o)
+                0x0000000020011f92                _write_r
  .text._close_r
-                0x0000000020011fc2       0x2a /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-closer.o)
-                0x0000000020011fc2                _close_r
+                0x0000000020011fc0       0x2a /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-closer.o)
+                0x0000000020011fc0                _close_r
  .text._fstat_r
-                0x0000000020011fec       0x2c /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fstatr.o)
-                0x0000000020011fec                _fstat_r
+                0x0000000020011fea       0x2c /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fstatr.o)
+                0x0000000020011fea                _fstat_r
  .text._isatty_r
-                0x0000000020012018       0x2a /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-isattyr.o)
-                0x0000000020012018                _isatty_r
+                0x0000000020012016       0x2a /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-isattyr.o)
+                0x0000000020012016                _isatty_r
  .text._lseek_r
-                0x0000000020012042       0x2e /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-lseekr.o)
-                0x0000000020012042                _lseek_r
- .text.memchr   0x0000000020012070       0x1a /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memchr.o)
-                0x0000000020012070                memchr
+                0x0000000020012040       0x2e /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-lseekr.o)
+                0x0000000020012040                _lseek_r
+ .text.memchr   0x000000002001206e       0x1a /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memchr.o)
+                0x000000002001206e                memchr
  .text.__malloc_lock
-                0x000000002001208a        0x2 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-mlock.o)
-                0x000000002001208a                __malloc_lock
+                0x0000000020012088        0x2 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-mlock.o)
+                0x0000000020012088                __malloc_lock
  .text.__malloc_unlock
-                0x000000002001208c        0x2 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-mlock.o)
-                0x000000002001208c                __malloc_unlock
+                0x000000002001208a        0x2 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-mlock.o)
+                0x000000002001208a                __malloc_unlock
  .text._printf_common
-                0x000000002001208e      0x10c /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x000000002001208e                _printf_common
+                0x000000002001208c      0x10c /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x000000002001208c                _printf_common
  .text._printf_i
-                0x000000002001219a      0x2a2 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x000000002001219a                _printf_i
- .text._read_r  0x000000002001243c       0x2e /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-readr.o)
-                0x000000002001243c                _read_r
+                0x0000000020012198      0x2a2 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000020012198                _printf_i
+ .text._read_r  0x000000002001243a       0x2e /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-readr.o)
+                0x000000002001243a                _read_r
  .text.__metal_driver_sifive_clint0_control_base
-                0x000000002001246a       0x26 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
+                0x0000000020012468       0x26 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
  .text.__metal_driver_sifive_clint0_num_interrupts
-                0x0000000020012490       0x24 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
+                0x000000002001248e       0x24 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
  .text.__metal_driver_sifive_clint0_interrupt_parents
-                0x00000000200124b4       0x3c /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
+                0x00000000200124b2       0x3c /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
  .text.__metal_driver_sifive_clint0_interrupt_lines
-                0x00000000200124f0       0x30 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
+                0x00000000200124ee       0x30 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
  .text.__metal_clint0_mtime_get
-                0x0000000020012520       0x9a /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
-                0x0000000020012520                __metal_clint0_mtime_get
+                0x000000002001251e       0x9a /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
+                0x000000002001251e                __metal_clint0_mtime_get
  .text.__metal_driver_riscv_clint0_mtimecmp_set
-                0x00000000200125ba       0x96 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
-                0x00000000200125ba                __metal_driver_riscv_clint0_mtimecmp_set
+                0x00000000200125b8       0x96 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
+                0x00000000200125b8                __metal_driver_riscv_clint0_mtimecmp_set
  .text._get_cpu_intc
-                0x0000000020012650       0x36 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
+                0x000000002001264e       0x36 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
  .text.__metal_driver_riscv_clint0_init
-                0x0000000020012686       0x88 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
-                0x0000000020012686                __metal_driver_riscv_clint0_init
+                0x0000000020012684       0x88 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
+                0x0000000020012684                __metal_driver_riscv_clint0_init
  .text.__metal_driver_riscv_clint0_register
-                0x000000002001270e       0xda /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
-                0x000000002001270e                __metal_driver_riscv_clint0_register
+                0x000000002001270c       0xda /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
+                0x000000002001270c                __metal_driver_riscv_clint0_register
  .text.__metal_driver_riscv_clint0_vector_register
-                0x00000000200127e8       0x28 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
-                0x00000000200127e8                __metal_driver_riscv_clint0_vector_register
+                0x00000000200127e6       0x28 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
+                0x00000000200127e6                __metal_driver_riscv_clint0_vector_register
  .text.__metal_driver_riscv_clint0_get_vector_mode
-                0x0000000020012810       0x1c /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
-                0x0000000020012810                __metal_driver_riscv_clint0_get_vector_mode
+                0x000000002001280e       0x1c /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
+                0x000000002001280e                __metal_driver_riscv_clint0_get_vector_mode
  .text.__metal_driver_riscv_clint0_set_vector_mode
-                0x000000002001282c       0x58 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
-                0x000000002001282c                __metal_driver_riscv_clint0_set_vector_mode
+                0x000000002001282a       0x58 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
+                0x000000002001282a                __metal_driver_riscv_clint0_set_vector_mode
  .text.__metal_driver_riscv_clint0_enable
-                0x0000000020012884       0xb2 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
-                0x0000000020012884                __metal_driver_riscv_clint0_enable
+                0x0000000020012882       0xb2 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
+                0x0000000020012882                __metal_driver_riscv_clint0_enable
  .text.__metal_driver_riscv_clint0_disable
-                0x0000000020012936       0xb2 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
-                0x0000000020012936                __metal_driver_riscv_clint0_disable
+                0x0000000020012934       0xb2 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
+                0x0000000020012934                __metal_driver_riscv_clint0_disable
  .text.__metal_driver_riscv_clint0_command_request
-                0x00000000200129e8      0x132 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
-                0x00000000200129e8                __metal_driver_riscv_clint0_command_request
+                0x00000000200129e6      0x132 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
+                0x00000000200129e6                __metal_driver_riscv_clint0_command_request
  .text.__metal_driver_riscv_clint0_clear_interrupt
-                0x0000000020012b1a       0x34 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
-                0x0000000020012b1a                __metal_driver_riscv_clint0_clear_interrupt
+                0x0000000020012b18       0x34 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
+                0x0000000020012b18                __metal_driver_riscv_clint0_clear_interrupt
  .text.__metal_driver_riscv_clint0_set_interrupt
-                0x0000000020012b4e       0x34 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
-                0x0000000020012b4e                __metal_driver_riscv_clint0_set_interrupt
+                0x0000000020012b4c       0x34 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
+                0x0000000020012b4c                __metal_driver_riscv_clint0_set_interrupt
  .text.__metal_driver_cpu_hartid
-                0x0000000020012b82       0x24 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
+                0x0000000020012b80       0x24 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
  .text.__metal_driver_cpu_timebase
-                0x0000000020012ba6       0x2a /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
+                0x0000000020012ba4       0x2a /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
  .text.__metal_driver_cpu_interrupt_controller
-                0x0000000020012bd0       0x2a /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
+                0x0000000020012bce       0x2a /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
  .text.__metal_driver_cpu_buserror
-                0x0000000020012bfa       0x24 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
+                0x0000000020012bf8       0x24 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
  .text.__metal_driver_cpu_get
-                0x0000000020012c1e       0x30 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
-                0x0000000020012c1e                __metal_driver_cpu_get
+                0x0000000020012c1c       0x30 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
+                0x0000000020012c1c                __metal_driver_cpu_get
  .text.__metal_myhart_id
-                0x0000000020012c4e       0x1a /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
-                0x0000000020012c4e                __metal_myhart_id
+                0x0000000020012c4c       0x1a /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
+                0x0000000020012c4c                __metal_myhart_id
  .text.__metal_interrupt_global_enable
-                0x0000000020012c68       0x18 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
-                0x0000000020012c68                __metal_interrupt_global_enable
+                0x0000000020012c66       0x18 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
+                0x0000000020012c66                __metal_interrupt_global_enable
  .text.__metal_interrupt_global_disable
-                0x0000000020012c80       0x18 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
-                0x0000000020012c80                __metal_interrupt_global_disable
+                0x0000000020012c7e       0x18 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
+                0x0000000020012c7e                __metal_interrupt_global_disable
  .text.__metal_interrupt_software_enable
-                0x0000000020012c98       0x18 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
-                0x0000000020012c98                __metal_interrupt_software_enable
+                0x0000000020012c96       0x18 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
+                0x0000000020012c96                __metal_interrupt_software_enable
  .text.__metal_interrupt_software_disable
-                0x0000000020012cb0       0x18 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
-                0x0000000020012cb0                __metal_interrupt_software_disable
+                0x0000000020012cae       0x18 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
+                0x0000000020012cae                __metal_interrupt_software_disable
  .text.__metal_interrupt_timer_enable
-                0x0000000020012cc8       0x1a /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
-                0x0000000020012cc8                __metal_interrupt_timer_enable
+                0x0000000020012cc6       0x1a /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
+                0x0000000020012cc6                __metal_interrupt_timer_enable
  .text.__metal_interrupt_timer_disable
-                0x0000000020012ce2       0x1a /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
-                0x0000000020012ce2                __metal_interrupt_timer_disable
+                0x0000000020012ce0       0x1a /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
+                0x0000000020012ce0                __metal_interrupt_timer_disable
  .text.__metal_interrupt_external_enable
-                0x0000000020012cfc       0x1c /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
-                0x0000000020012cfc                __metal_interrupt_external_enable
+                0x0000000020012cfa       0x1c /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
+                0x0000000020012cfa                __metal_interrupt_external_enable
  .text.__metal_interrupt_external_disable
-                0x0000000020012d18       0x1c /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
-                0x0000000020012d18                __metal_interrupt_external_disable
+                0x0000000020012d16       0x1c /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
+                0x0000000020012d16                __metal_interrupt_external_disable
  .text.__metal_interrupt_local_enable
-                0x0000000020012d34       0x2c /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
-                0x0000000020012d34                __metal_interrupt_local_enable
+                0x0000000020012d32       0x2c /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
+                0x0000000020012d32                __metal_interrupt_local_enable
  .text.__metal_interrupt_local_disable
-                0x0000000020012d60       0x2c /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
-                0x0000000020012d60                __metal_interrupt_local_disable
+                0x0000000020012d5e       0x2c /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
+                0x0000000020012d5e                __metal_interrupt_local_disable
  .text.__metal_default_exception_handler
-                0x0000000020012d8c       0x18 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
-                0x0000000020012d8c                __metal_default_exception_handler
+                0x0000000020012d8a       0x18 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
+                0x0000000020012d8a                __metal_default_exception_handler
  .text.__metal_default_interrupt_handler
-                0x0000000020012da4       0x18 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
-                0x0000000020012da4                __metal_default_interrupt_handler
+                0x0000000020012da2       0x18 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
+                0x0000000020012da2                __metal_default_interrupt_handler
  .text.metal_interrupt_vector_handler
-                0x0000000020012dbc       0x2e /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
-                0x0000000020012dbc                metal_interrupt_vector_handler
+                0x0000000020012dba       0x2e /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
+                0x0000000020012dba                metal_interrupt_vector_handler
  .text.metal_software_interrupt_vector_handler
-                0x0000000020012dea       0x92 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
-                0x0000000020012dea                metal_software_interrupt_vector_handler
+                0x0000000020012de8       0x92 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
+                0x0000000020012de8                metal_software_interrupt_vector_handler
  .text.__metal_default_sw_handler
-                0x0000000020012e7c       0x68 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
-                0x0000000020012e7c                __metal_default_sw_handler
+                0x0000000020012e7a       0x68 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
+                0x0000000020012e7a                __metal_default_sw_handler
  .text.metal_timer_interrupt_vector_handler
-                0x0000000020012ee4       0x92 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
-                0x0000000020012ee4                metal_timer_interrupt_vector_handler
+                0x0000000020012ee2       0x92 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
+                0x0000000020012ee2                metal_timer_interrupt_vector_handler
  .text.__metal_default_beu_handler
-                0x0000000020012f76       0x16 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
-                0x0000000020012f76                __metal_default_beu_handler
+                0x0000000020012f74       0x16 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
+                0x0000000020012f74                __metal_default_beu_handler
  .text.__metal_default_timer_handler
-                0x0000000020012f8c       0x66 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
-                0x0000000020012f8c                __metal_default_timer_handler
- *fill*         0x0000000020012ff2        0xe 
+                0x0000000020012f8a       0x66 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
+                0x0000000020012f8a                __metal_default_timer_handler
+ *fill*         0x0000000020012ff0       0x10 
  .text.__metal_exception_handler
                 0x0000000020013000      0x1f6 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
                 0x0000000020013000                __metal_exception_handler
@@ -2603,88 +2603,88 @@ END GROUP
 
 .rela.dyn       0x0000000020018514        0x0
  .rela.text._vfprintf_r
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text._sbrk_r
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text._write_r
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text._close_r
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text._fstat_r
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text._isatty_r
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text._lseek_r
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text._read_r
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text.__metal_driver_cpu_get
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text.metal_software_interrupt_vector_handler
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text.__metal_default_sw_handler
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text.metal_timer_interrupt_vector_handler
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text.__metal_exception_handler
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text.metal_lc0_interrupt_vector_handler
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text.metal_lc1_interrupt_vector_handler
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text.metal_lc2_interrupt_vector_handler
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text.metal_lc3_interrupt_vector_handler
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text.metal_lc4_interrupt_vector_handler
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text.metal_lc5_interrupt_vector_handler
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text.metal_lc6_interrupt_vector_handler
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text.metal_lc7_interrupt_vector_handler
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text.metal_lc8_interrupt_vector_handler
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text.metal_lc9_interrupt_vector_handler
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text.metal_lc10_interrupt_vector_handler
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text.metal_lc11_interrupt_vector_handler
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text.metal_lc12_interrupt_vector_handler
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text.metal_lc13_interrupt_vector_handler
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text.metal_lc14_interrupt_vector_handler
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text.metal_lc15_interrupt_vector_handler
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text.metal_cpu_get
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text.metal.init.enter
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text.metal.init.scrub
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text.metal_i2c_get_device
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
- .rela.text     0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
+ .rela.text     0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text.libgloss.start
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.sdata.__brk
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text._sbrk
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text.__libc_fini_array
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text.__libc_init_array
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text.__register_exitproc
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text.metal_init
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
  .rela.text.metal_fini
-                0x0000000020018514        0x0 /tmp/cc7Zw6BQ.o
+                0x0000000020018514        0x0 /tmp/ccFaSpt4.o
 
 .data           0x0000000080000000      0xb0c load address 0x0000000020018518
  *(.data .data.*)
@@ -2731,10 +2731,10 @@ END GROUP
                 0x00000000800012c0                PROVIDE (__global_pointer$ = (. + 0x800))
  *(.sdata .sdata.* .sdata2.*)
  .sdata.__metal_cpu_table
-                0x0000000080000ac0        0x4 /tmp/cc7Zw6BQ.o
+                0x0000000080000ac0        0x4 /tmp/ccFaSpt4.o
                 0x0000000080000ac0                __metal_cpu_table
  .sdata.__metal_i2c_table
-                0x0000000080000ac4        0x4 /tmp/cc7Zw6BQ.o
+                0x0000000080000ac4        0x4 /tmp/ccFaSpt4.o
                 0x0000000080000ac4                __metal_i2c_table
  .sdata._impure_ptr
                 0x0000000080000ac8        0x4 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-impure.o)
@@ -2837,7 +2837,7 @@ END GROUP
 OUTPUT(empty elf32-littleriscv)
 
 .debug_info     0x0000000000000000    0x367cb
- .debug_info    0x0000000000000000     0x2968 /tmp/cc7Zw6BQ.o
+ .debug_info    0x0000000000000000     0x2968 /tmp/ccFaSpt4.o
  .debug_info    0x0000000000002968     0x2229 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(inline.o)
  .debug_info    0x0000000000004b91     0x26ea /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
  .debug_info    0x000000000000727b     0x3574 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
@@ -2878,7 +2878,7 @@ OUTPUT(empty elf32-littleriscv)
  .debug_info    0x000000000003677c       0x4f /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal-gloss.a(sys_exit.o)
 
 .debug_abbrev   0x0000000000000000     0x430c
- .debug_abbrev  0x0000000000000000      0x223 /tmp/cc7Zw6BQ.o
+ .debug_abbrev  0x0000000000000000      0x223 /tmp/ccFaSpt4.o
  .debug_abbrev  0x0000000000000223      0x181 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(inline.o)
  .debug_abbrev  0x00000000000003a4      0x2dd /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
  .debug_abbrev  0x0000000000000681      0x359 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
@@ -2920,7 +2920,7 @@ OUTPUT(empty elf32-littleriscv)
 
 .debug_aranges  0x0000000000000000      0xce0
  .debug_aranges
-                0x0000000000000000       0x20 /tmp/cc7Zw6BQ.o
+                0x0000000000000000       0x20 /tmp/ccFaSpt4.o
  .debug_aranges
                 0x0000000000000020       0x18 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(inline.o)
  .debug_aranges
@@ -2999,7 +2999,7 @@ OUTPUT(empty elf32-littleriscv)
                 0x0000000000000cc0       0x20 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal-gloss.a(sys_exit.o)
 
 .debug_ranges   0x0000000000000000      0xc38
- .debug_ranges  0x0000000000000000       0x10 /tmp/cc7Zw6BQ.o
+ .debug_ranges  0x0000000000000000       0x10 /tmp/ccFaSpt4.o
  .debug_ranges  0x0000000000000010       0xd8 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
  .debug_ranges  0x00000000000000e8      0x268 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
  .debug_ranges  0x0000000000000350       0xd0 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_plic0.o)
@@ -3034,49 +3034,49 @@ OUTPUT(empty elf32-littleriscv)
  .debug_ranges  0x0000000000000c08       0x20 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(tty.o)
  .debug_ranges  0x0000000000000c28       0x10 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal-gloss.a(sys_exit.o)
 
-.debug_line     0x0000000000000000     0xef85
- .debug_line    0x0000000000000000      0x5bf /tmp/cc7Zw6BQ.o
- .debug_line    0x00000000000005bf      0x472 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(inline.o)
- .debug_line    0x0000000000000a31      0xc91 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
- .debug_line    0x00000000000016c2     0x1910 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
- .debug_line    0x0000000000002fd2      0xd3c /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_plic0.o)
- .debug_line    0x0000000000003d0e      0x605 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(sifive_fe310-g000_hfrosc.o)
- .debug_line    0x0000000000004313      0x5ed /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(sifive_fe310-g000_hfxosc.o)
- .debug_line    0x0000000000004900      0xc86 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(sifive_fe310-g000_pll.o)
- .debug_line    0x0000000000005586      0x560 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(sifive_fe310-g000_prci.o)
- .debug_line    0x0000000000005ae6     0x102b /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(sifive_gpio0.o)
- .debug_line    0x0000000000006b11      0xe8d /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(sifive_i2c0.o)
- .debug_line    0x000000000000799e      0xda3 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(sifive_uart0.o)
- .debug_line    0x0000000000008741      0x20d /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(clock.o)
- .debug_line    0x000000000000894e      0x88f /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(cpu.o)
- .debug_line    0x00000000000091dd      0x154 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(entry.o)
- .debug_line    0x0000000000009331      0x18b /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(scrub.o)
- .debug_line    0x00000000000094bc       0xf2 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(trap.o)
- .debug_line    0x00000000000095ae      0x60e /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(i2c.o)
- .debug_line    0x0000000000009bbc      0x507 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(shutdown.o)
- .debug_line    0x000000000000a0c3      0x363 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(time.o)
- .debug_line    0x000000000000a426      0x80e /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(uart.o)
- .debug_line    0x000000000000ac34      0x13f /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(vector.o)
- .debug_line    0x000000000000ad73      0x59d /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(fixed-clock.o)
- .debug_line    0x000000000000b310      0x64f /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(timer.o)
- .debug_line    0x000000000000b95f      0x2d0 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal-gloss.a(crt0.o)
- .debug_line    0x000000000000bc2f      0x1d3 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal-gloss.a(sys_close.o)
- .debug_line    0x000000000000be02      0x2fc /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal-gloss.a(sys_fstat.o)
- .debug_line    0x000000000000c0fe      0x11a /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal-gloss.a(sys_isatty.o)
- .debug_line    0x000000000000c218      0x1de /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal-gloss.a(sys_lseek.o)
- .debug_line    0x000000000000c3f6      0x1dd /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal-gloss.a(sys_read.o)
- .debug_line    0x000000000000c5d3      0x194 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal-gloss.a(sys_sbrk.o)
- .debug_line    0x000000000000c767      0x240 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal-gloss.a(sys_write.o)
- .debug_line    0x000000000000c9a7      0xa71 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32/libgcc.a(_udivdi3.o)
- .debug_line    0x000000000000d418      0xb21 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32/libgcc.a(_umoddi3.o)
- .debug_line    0x000000000000df39      0x3ad /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32/libgcc.a(_clz.o)
- .debug_line    0x000000000000e2e6      0x1ff /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(init.o)
- .debug_line    0x000000000000e4e5      0x4d2 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(synchronize_harts.o)
- .debug_line    0x000000000000e9b7      0x53e /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(tty.o)
- .debug_line    0x000000000000eef5       0x90 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal-gloss.a(sys_exit.o)
+.debug_line     0x0000000000000000     0xef7b
+ .debug_line    0x0000000000000000      0x5b5 /tmp/ccFaSpt4.o
+ .debug_line    0x00000000000005b5      0x472 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(inline.o)
+ .debug_line    0x0000000000000a27      0xc91 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
+ .debug_line    0x00000000000016b8     0x1910 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
+ .debug_line    0x0000000000002fc8      0xd3c /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_plic0.o)
+ .debug_line    0x0000000000003d04      0x605 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(sifive_fe310-g000_hfrosc.o)
+ .debug_line    0x0000000000004309      0x5ed /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(sifive_fe310-g000_hfxosc.o)
+ .debug_line    0x00000000000048f6      0xc86 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(sifive_fe310-g000_pll.o)
+ .debug_line    0x000000000000557c      0x560 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(sifive_fe310-g000_prci.o)
+ .debug_line    0x0000000000005adc     0x102b /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(sifive_gpio0.o)
+ .debug_line    0x0000000000006b07      0xe8d /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(sifive_i2c0.o)
+ .debug_line    0x0000000000007994      0xda3 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(sifive_uart0.o)
+ .debug_line    0x0000000000008737      0x20d /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(clock.o)
+ .debug_line    0x0000000000008944      0x88f /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(cpu.o)
+ .debug_line    0x00000000000091d3      0x154 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(entry.o)
+ .debug_line    0x0000000000009327      0x18b /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(scrub.o)
+ .debug_line    0x00000000000094b2       0xf2 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(trap.o)
+ .debug_line    0x00000000000095a4      0x60e /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(i2c.o)
+ .debug_line    0x0000000000009bb2      0x507 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(shutdown.o)
+ .debug_line    0x000000000000a0b9      0x363 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(time.o)
+ .debug_line    0x000000000000a41c      0x80e /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(uart.o)
+ .debug_line    0x000000000000ac2a      0x13f /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(vector.o)
+ .debug_line    0x000000000000ad69      0x59d /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(fixed-clock.o)
+ .debug_line    0x000000000000b306      0x64f /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(timer.o)
+ .debug_line    0x000000000000b955      0x2d0 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal-gloss.a(crt0.o)
+ .debug_line    0x000000000000bc25      0x1d3 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal-gloss.a(sys_close.o)
+ .debug_line    0x000000000000bdf8      0x2fc /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal-gloss.a(sys_fstat.o)
+ .debug_line    0x000000000000c0f4      0x11a /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal-gloss.a(sys_isatty.o)
+ .debug_line    0x000000000000c20e      0x1de /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal-gloss.a(sys_lseek.o)
+ .debug_line    0x000000000000c3ec      0x1dd /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal-gloss.a(sys_read.o)
+ .debug_line    0x000000000000c5c9      0x194 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal-gloss.a(sys_sbrk.o)
+ .debug_line    0x000000000000c75d      0x240 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal-gloss.a(sys_write.o)
+ .debug_line    0x000000000000c99d      0xa71 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32/libgcc.a(_udivdi3.o)
+ .debug_line    0x000000000000d40e      0xb21 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32/libgcc.a(_umoddi3.o)
+ .debug_line    0x000000000000df2f      0x3ad /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32/libgcc.a(_clz.o)
+ .debug_line    0x000000000000e2dc      0x1ff /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(init.o)
+ .debug_line    0x000000000000e4db      0x4d2 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(synchronize_harts.o)
+ .debug_line    0x000000000000e9ad      0x53e /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(tty.o)
+ .debug_line    0x000000000000eeeb       0x90 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal-gloss.a(sys_exit.o)
 
 .debug_str      0x0000000000000000     0x5907
- .debug_str     0x0000000000000000     0x190b /tmp/cc7Zw6BQ.o
+ .debug_str     0x0000000000000000     0x190b /tmp/ccFaSpt4.o
                                        0x1da3 (size before relaxing)
  .debug_str     0x000000000000190b       0xa5 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(inline.o)
                                        0x19a1 (size before relaxing)
@@ -3156,7 +3156,7 @@ OUTPUT(empty elf32-littleriscv)
                                         0x121 (size before relaxing)
 
 .comment        0x0000000000000000       0x28
- .comment       0x0000000000000000       0x28 /tmp/cc7Zw6BQ.o
+ .comment       0x0000000000000000       0x28 /tmp/ccFaSpt4.o
                                          0x29 (size before relaxing)
  .comment       0x0000000000000028       0x29 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-printf.o)
  .comment       0x0000000000000028       0x29 /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-puts.o)
@@ -3226,7 +3226,7 @@ OUTPUT(empty elf32-littleriscv)
 .riscv.attributes
                 0x0000000000000000       0x2b
  .riscv.attributes
-                0x0000000000000000       0x2b /tmp/cc7Zw6BQ.o
+                0x0000000000000000       0x2b /tmp/ccFaSpt4.o
  .riscv.attributes
                 0x000000000000002b       0x2b /home/letsgrillbananas/FreedomStudio/SiFive/riscv64-unknown-elf-gcc-8.3.0-2020.04.1/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-printf.o)
  .riscv.attributes
@@ -3369,7 +3369,7 @@ OUTPUT(empty elf32-littleriscv)
                 0x0000000000000bb6       0x2b /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal-gloss.a(sys_exit.o)
 
 .debug_frame    0x0000000000000000     0x31ec
- .debug_frame   0x0000000000000000       0x38 /tmp/cc7Zw6BQ.o
+ .debug_frame   0x0000000000000000       0x38 /tmp/ccFaSpt4.o
  .debug_frame   0x0000000000000038      0x2cc /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_clint0.o)
  .debug_frame   0x0000000000000304     0x1030 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_cpu.o)
  .debug_frame   0x0000000000001334      0x3d4 /home/letsgrillbananas/wsFreedomStudio/embedded-software/bsp/install/lib/debug//libmetal.a(riscv_plic0.o)
