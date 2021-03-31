@@ -111,6 +111,10 @@ int main() {
 		printf("IMU gyro enabled!\n");
 	}
 
+	short rawGyroZ = 0;
+	short rawAcceleroX = 0;
+	short rawAcceleroY = 0;
+
 	while(1) {
 
 		/* Read IMU Status Register */
@@ -131,6 +135,8 @@ int main() {
 				printf("Gyro Z LSB = %X\n", imu_buf[3]);
 			}
 		}
+		rawGyroZ = (short) ((imu_buf[2] << 8) | imu_buf[3]);
+		printf("Gyro Z = %d\n", rawGyroZ);
 
 		/* Read IMU Accelero (x-y plane) */
 		if (metal_i2c_write(i2c, IMU_I2C_ADDR, LEN1, imu_addr_buf + 4, METAL_I2C_STOP_DISABLE) == RET_OK) {
@@ -143,6 +149,9 @@ int main() {
 				printf("Accelero X LSB = %X\n", imu_buf[5]);
 			}
 		}
+		rawAcceleroX = (short) ((imu_buf[4] << 8) | imu_buf[5]);
+		printf("Accelero X = %d\n", rawAcceleroX);
+
 		if (metal_i2c_write(i2c, IMU_I2C_ADDR, LEN1, imu_addr_buf + 6, METAL_I2C_STOP_DISABLE) == RET_OK) {
 			if (metal_i2c_read(i2c, IMU_I2C_ADDR, LEN1, imu_buf + 6, METAL_I2C_STOP_ENABLE) == RET_OK) {
 				printf("Accelero Y MSB = %X\n", imu_buf[6]);
@@ -153,6 +162,9 @@ int main() {
 				printf("Accelero Y LSB = %X\n", imu_buf[7]);
 			}
 		}
+		rawAcceleroY = (short) ((imu_buf[6] << 8) | imu_buf[7]);
+		printf("Accelero Y = %d\n", rawAcceleroY);
+
 
 //		/* ULTRASONIC SENSOR */
 //		metal_gpio_disable_output(gpio, 16);
