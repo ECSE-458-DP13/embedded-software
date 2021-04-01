@@ -9,10 +9,12 @@
 #include <stdio.h>
 #include <time.h>
 
-// addresses and subaddresses for IMU
-// IMU = accelero + gyro
-// each sensor value is 2 bytes
-// want yaw for gyro, x-y for accelero
+/*
+ * Addresses and subaddresses for IMU
+ * IMU = accelero + gyro
+ * Each raw sensor value is 2 bytes, must be scaled appropriately
+ * We want yaw for gyro, x-y for accelero
+ */
 #define IMU_I2C_ADDR 0x6A
 #define IMU_SENSOR_ID 0x69
 #define IMU_WHO_AM_I_SUBADDR 0x0F
@@ -26,7 +28,13 @@
 #define IMU_CTRL1_XL_SUBADDR 0x10
 #define IMU_CTRL2_G_SUBADDR 0x11
 
-// addresses and subaddresses for magneto
+/* Constants for scaling raw IMU data */
+#define ACCELERO_SCALE 0.061
+#define GYRO_SCALE 4.375
+#define GRAVITY 9.80665
+#define DPS_TO_RADS 0.017453293
+
+/* Addresses and subaddresses for magneto */
 #define MAGNETO_I2C_ADDR 0x1C
 // TODO: subaddresses
 
@@ -111,9 +119,14 @@ int main() {
 		printf("IMU gyro enabled!\n");
 	}
 
+	/* Initialize variables for raw sensor values */
 	short rawGyroZ = 0;
 	short rawAcceleroX = 0;
 	short rawAcceleroY = 0;
+
+	float gyroZ = 0;
+	float acceleroX = 0;
+	float acceleroY = 0;
 
 	while(1) {
 
@@ -136,7 +149,8 @@ int main() {
 			}
 		}
 		rawGyroZ = (short) ((imu_buf[2] << 8) | imu_buf[3]);
-		printf("Gyro Z = %d\n", rawGyroZ);
+		gyroZ = rawGyroZ * GYRO_SCALE * DPS_TO_RADS / 1000.0;
+		printf("Gyro Z = %.6f\n", gyroZ);
 
 		/* Read IMU Accelero (x-y plane) */
 		if (metal_i2c_write(i2c, IMU_I2C_ADDR, LEN1, imu_addr_buf + 4, METAL_I2C_STOP_DISABLE) == RET_OK) {
@@ -150,7 +164,8 @@ int main() {
 			}
 		}
 		rawAcceleroX = (short) ((imu_buf[4] << 8) | imu_buf[5]);
-		printf("Accelero X = %d\n", rawAcceleroX);
+		acceleroX = rawAcceleroX * ACCELERO_SCALE * GRAVITY / 1000.0;
+		printf("Accelero X = %.6f\n", acceleroX);
 
 		if (metal_i2c_write(i2c, IMU_I2C_ADDR, LEN1, imu_addr_buf + 6, METAL_I2C_STOP_DISABLE) == RET_OK) {
 			if (metal_i2c_read(i2c, IMU_I2C_ADDR, LEN1, imu_buf + 6, METAL_I2C_STOP_ENABLE) == RET_OK) {
@@ -163,7 +178,8 @@ int main() {
 			}
 		}
 		rawAcceleroY = (short) ((imu_buf[6] << 8) | imu_buf[7]);
-		printf("Accelero Y = %d\n", rawAcceleroY);
+		acceleroY = rawAcceleroY * ACCELERO_SCALE * GRAVITY / 1000.0;
+		printf("Accelero Y = %.6f\n", acceleroY);
 
 
 //		/* ULTRASONIC SENSOR */
