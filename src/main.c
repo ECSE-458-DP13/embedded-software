@@ -59,6 +59,12 @@
   while (timeout > time(NULL))                                                 \
     ;
 
+/*
+ * This is here because of some weird issue where printf here doesn't support floats
+ * See: https://forums.sifive.com/t/couldnt-store-floating-point-result/1660/14
+ */
+asm (".global _printf_float");
+
 int main() {
 	/*
 	 * imu_buf is to buffer the following:
