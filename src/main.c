@@ -6,6 +6,7 @@
 #include <metal/io.h>
 #include <metal/machine.h>
 #include <metal/uart.h>
+#include <metal/timer.h>
 #include <stdio.h>
 #include <time.h>
 
@@ -77,26 +78,29 @@ int main() {
 	 * [6] accelero y-axis MSB
 	 * [7] accelero y-axis LSB
 	 * */
+	unsigned char imu_buf[LEN8];
 	unsigned char imu_addr_buf[LEN8] = { IMU_WHO_AM_I_SUBADDR, IMU_STATUS_REG_SUBADDR,
 										IMU_OUTZ_H_G_SUBADDR, IMU_OUTZ_L_G_SUBADDR,
 										IMU_OUTX_H_XL_SUBADDR, IMU_OUTX_L_XL_SUBADDR,
 										IMU_OUTY_H_XL_SUBADDR, IMU_OUTY_L_XL_SUBADDR };
-	unsigned char imu_buf[LEN8];
 	time_t timeout;
 	struct metal_i2c *i2c;
-//	struct metal_gpio *gpio;
+	struct metal_gpio *gpio;
+	struct metal_cpu *cpu;
 
 	i2c = metal_i2c_get_device(0);
-//	gpio = metal_gpio_get_device(0);
+	gpio = metal_gpio_get_device(0);
+	cpu = metal_cpu_get(metal_cpu_get_current_hartid()); // only one processor, so should be just one cpu
+
 
 	if (i2c == NULL) {
 		printf("I2C not available \n");
 		return RET_NOK;
 	}
-//	if (gpio == NULL) {
-//		printf("GPIO not available \n");
-//		return RET_NOK;
-//	}
+	if (gpio == NULL) {
+		printf("GPIO not available \n");
+		return RET_NOK;
+	}
 
 	metal_i2c_init(i2c, I2C_BAUDRATE, METAL_I2C_MASTER);
 
@@ -133,6 +137,12 @@ int main() {
 	float gyroZ = 0;
 	float acceleroX = 0;
 	float acceleroY = 0;
+
+	/* Declare variables for timing of ultrasonic ranging */
+	unsigned long long pulseStart;
+	unsigned long long pulseEnd;
+	unsigned long long timebase = metal_cpu_get_timebase(cpu);
+	float duration;
 
 	while(1) {
 
@@ -188,11 +198,26 @@ int main() {
 		printf("Accelero Y = %.6f\n", acceleroY);
 
 
-//		/* ULTRASONIC SENSOR */
-//		metal_gpio_disable_output(gpio, 16);
-//		// TODO: implement this function, or find one
-//		delayForMicroseconds(2);
-//		metal_gpio_enable_output(gpio, 16);
+		/* ULTRASONIC SENSOR */
+		/* Pre-set TRIG to LOW (for clean signal) */
+		metal_gpio_disable_output(gpio, 16);
+		// TODO: delay for 5 microseconds
+
+		/* Hold TRIG at HIGH for 10 microseconds (to generate pulse) */
+		metal_gpio_enable_output(gpio, 16);
+		// TODO: delay for 10 microseconds
+		metal_gpio_disable_output(gpio, 16);
+
+		/* Listen for ECHO to be HIGH */
+		while(!metal_gpio_get_input_pin(gpio, 17));
+		pulseStart = metal_cpu_get_timer(cpu);
+		while(metal_gpio_get_input_pin(gpio, 17));
+		pulseEnd = metal_cpu_get_timer(cpu);
+		duration = (float) (pulseEnd - pulseStart) / timebase;
+
+		// TODO: test what we get out of the cpu timer functions
+		printf("");
+
 
 	}
 
